@@ -1,0 +1,9 @@
+Wireshark
+To find DOS (SYN and ACK)
+open file with wireshark
+statistic -> IPv4 statistics -> source and destination address
+filter using: `tcp.flags.syn == 1`
+or
+tcp.flags.syn == 1 and tcp.flags.ack == 0
+or
+filter to least number of request
