@@ -6,3 +6,7 @@ Workstation – 2" and select the “Its_File” volume.)---click “mount”---
 open File Explorer (Windows)---Navigate to the drive letter you selected (e.g., Z:)---In the
 mounted volume, browse through the folders to find the file named “EC_data.txt”---Open
 EC_data.txt---obtain info
+
+Decode base
+1. http://ipaddress/DVWA, login, creds umepewa
+2. http://ipaddress/DVWA/ECweb/Certified/ utakuta 3 files, Cyberchef it
