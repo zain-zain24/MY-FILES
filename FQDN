@@ -1,0 +1,5 @@
+nmap -p 53,88,135,139,389,445 -T4 -A IP/24
+or 
+nmap -T4 -A -p 389,636,3268,3269 192.168.x.x/2x
+or
+nmap -p 389 --script ldap-rootdse <target_IP>
