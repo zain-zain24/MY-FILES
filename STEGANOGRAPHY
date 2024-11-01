@@ -1,0 +1,5 @@
+Navigate to E:\CEH-Tools\CEHv12 Module 06 System Hacking\Steganography  Tools\Whitespace Steganography Tools, copy the Snow folder, and paste it on Desktop.
+Copy the restricted.txt file and paste it to the snow folder in the dektop
+Click Search icon on the Desktop. Type cmd in the search field, the Command Prompt appears in the results
+navigate to the snow folder in the desktop cd C:\Users\Admin\Desktop\Snow
+run the following commands: snow -C -p "password" restricted.txt
