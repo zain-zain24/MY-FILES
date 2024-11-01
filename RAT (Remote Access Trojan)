@@ -1,0 +1,8 @@
+Scan all ports with nmap (-p-). Look for the unknown ports. Use theef RAT to connect to it.
+main ports check 9871,6703
+nmap -p 9871,6703 192.168.0.0/24
+now you get open port ip address
+now go to the c drive malware/trojans/rat/theef and run the client.exe file
+now entry the ip of open port/ leave port default and click connect and click on file explorer and look for the folder
+file explorer-file manager-look for your folder or 
+search file in cmd using command --→ dir /b/s “sa_code*” it shows the path.
